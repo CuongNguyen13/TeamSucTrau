@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./Home/Home.js";
 import Search from "./Search.js";
-import Contact from "./Contact.js";
+import Contact from "./Contact/Contact.js";
 import About from "./About.js";
 // import component xem full bảng tin
 import NewsFullView1 from "./Home/news/newsFullView/NewsFullView1.js";
