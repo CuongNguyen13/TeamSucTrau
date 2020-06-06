@@ -1,0 +1,79 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+  -ms-overflow-style: none;
+}
+/* căn lề cho các components sau navigation bar */
+#align-top {
+  margin-top: 100px;
+}
+.current_content span {
+  background: linear-gradient(to left,#0ebeb0  1%,#34eb13 100%);
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: blue;
+}
+/* tắt gạch chân phần tử menu khi rê chuột trong lúc đang ở URL của phần từ đó */
+.current_content .nav-item:after {
+  background-color: transparent;
+  transition: all 2ms linear;
+}
+
+/* for button select language */
+/* disable translate bar on top */
+.goog-te-banner-frame {
+  visibility: hidden !important;
+}
+body {
+  top: 0 !important;
+}
+/* remove power by google translate text */
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+/* for button quick view & full view / New_Block */
+.button_group {
+}
+
+.button_group .btnLeft {
+  float: left;
+}
+.button_group .btnRight {
+  float: right;
+}
+
+/* for Group_News */
+.Group_News {
+  
+}
+/* for block new */
+.News_Block_background {
+  background-color: rgba(0, 0, 0, 0.048);
+}
+.News_Block{
+  border: 2.2px solid;
+  border-color: rgba(3, 3, 3, 0.274);
+  }
+
+  /* for Quick view modal */
+  .header_quick_view{
+    background-color:rgba(16, 17, 17, 0.13);
+  }
+  .closeBtn{
+    color:red;
+  }
+
+  
+
+
+

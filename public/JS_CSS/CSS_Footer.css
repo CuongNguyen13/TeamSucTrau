@@ -1,0 +1,202 @@
+body {
+  background: #fbfbfd;
+}
+
+.new_footer_top {
+  padding: 5px 0px 270px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.new_footer_top .footer_bg {
+  position: absolute;
+  bottom: 0;
+  background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png")
+    no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+  background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif")
+    no-repeat center center;
+  width: 330px;
+  height: 105px;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  -webkit-animation: myfirst 22s linear infinite;
+  animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+  background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif")
+    no-repeat center center;
+  width: 88px;
+  height: 100px;
+  background-size: 100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+/* /////////////////////////////////////////////// */
+footer {
+  position: relative;
+}
+
+footer .container {
+  margin-left: 7%;
+  position: absolute;
+  z-index: 1;
+}
+
+footer .footer_bg {
+  position: absolute;
+  z-index: 0;
+}
+
+.social_block{
+  margin-left: -20%;
+}
+
+#Copyright1{
+  margin-top:-10px;
+  font-weight: bold;
+}
+.Copyright1_block{
+  margin-left: -35px;
+}
+
+/* social icon */
+
+/* Social Button Icon Styling */
+/* Colors */
+
+
+.headline {
+  text-align: center;
+}
+.headline h1 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.social-buttons {
+  display: inline-block;
+  padding: 20px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  text-align: center;
+  margin: -17px 10px;
+}
+.social-buttons .social-margin {
+  /* Helper class to divide the icons */
+  margin-right: 15px;
+}
+.social-buttons a,
+.social-buttons a:hover,
+.social-buttons a:focus,
+.social-buttons a:active {
+  text-decoration: none;
+}
+.social-buttons .social-icon {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 138px;
+  border: 5px solid;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 1px;
+  padding-top: 11px;
+  transition: all 0.5s;
+  /* Facebook Button Styling */
+  /* Twitter Button Styling */
+  /* Github Button Styling */
+  /* Youtube Button Styling */
+}
+.social-buttons .social-icon:hover {
+  transform: rotate(360deg) scale(1.3);
+}
+.social-buttons .social-icon.facebook {
+  font-size: 22px;
+  padding-top: 9px;
+  border-color: #3b5998;
+  background-color: #3b5998;
+  color: #fff;
+}
+.social-buttons .social-icon.facebook:hover {
+  background-color: #fff;
+  color: #3b5998;
+}
+.social-buttons .social-icon.twitter {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 2px;
+  border-color: #55acee;
+  background-color: #55acee;
+  color: #fff;
+}
+.social-buttons .social-icon.twitter:hover {
+  background-color: #fff;
+  color: #55acee;
+}
+
+
+
+.social-buttons .social-icon.github {
+  font-size: 22px;
+  padding-top: 9px;
+  background-color: #4183c4;
+  color: #fff;
+  border-color: #4183c4;
+}
+.social-buttons .social-icon.github:hover {
+  background-color: #fff;
+  color: #4183c4;
+}
+.social-buttons .social-icon.youtube {
+  font-size: 22px;
+  padding-top: 9px;
+  padding-left: 0px;
+  background-color: #b00;
+  color: #fff;
+  border-color: #b00;
+}
+.social-buttons .social-icon.youtube:hover {
+  background-color: #fff;
+  color: #b00;
+}
+
