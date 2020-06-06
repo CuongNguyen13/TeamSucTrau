@@ -12,7 +12,7 @@ body {
   margin-top: 100px;
 }
 .current_content span {
-  background: linear-gradient(to left,#0ebeb0  1%,#34eb13 100%);
+  background: linear-gradient(to left, #0ebeb0 1%, #34eb13 100%);
   padding: 10px;
   border: 2px solid;
   border-radius: 10px;
@@ -54,26 +54,26 @@ body {
 
 /* for Group_News */
 .Group_News {
-  
 }
 /* for block new */
 .News_Block_background {
   background-color: rgba(0, 0, 0, 0.048);
 }
-.News_Block{
+.News_Block {
   border: 2.2px solid;
   border-color: rgba(3, 3, 3, 0.274);
-  }
+}
 
-  /* for Quick view modal */
-  .header_quick_view{
-    background-color:rgba(16, 17, 17, 0.13);
-  }
-  .closeBtn{
-    color:red;
-  }
+/* for Quick view modal */
+.header_quick_view {
+  background-color: rgba(16, 17, 17, 0.13);
+}
+.closeBtn {
+  color: red;
+}
 
-  
-
-
-
+/* for Search page */
+.userLocationTable {
+  width: 60%;
+  margin-left: 20%;
+}

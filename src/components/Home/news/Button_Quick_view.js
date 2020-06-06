@@ -1,4 +1,11 @@
 import React, { Component } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 
 class Button_Quick_view extends Component {
   render() {
@@ -48,9 +55,9 @@ class Button_Quick_view extends Component {
                     {this.props.QuickView_content}
                   </div>
                   <div className="modal-footer justify-content-center">
-                    <a href={this.props.QuickView_to_Full_View} className="btn btn-primary btnRight ">
+                    <Link to={this.props.QuickView_to_Full_View} className="btn btn-primary btnRight ">
                       <i className="fa fa-newspaper-o"></i> Full view
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
