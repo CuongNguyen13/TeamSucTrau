@@ -7,7 +7,7 @@
 }
 
 .BaoBao .card-main{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 .BaoBao  .card-main{
@@ -15,6 +15,50 @@
 }
 
 .BaoBao .social-container{
-    margin-top:20%;
+    margin-top:10%;
 }
 
+.BaoBao .card-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  height: 100%;
+  top: -20%;
+  left: 0;
+  will-change: top;
+  background-size: cover;
+  background-position: center;
+  filter: blur(30px);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.BaoBao .social-icons .fb_icon {
+  top: 12px;
+  left: 14px;
+}
+
+.BaoBao .card-avatar {
+  width: 250px;
+  height: 250px;
+}
+
+.BaoBao .card-jobtitle{
+  font-size: 11px;
+  font-weight: bolder;
+}
+
+.BaoBao .card-subtitle{
+  font-size: 25px;
+}
+
+.BaoBao .card-desc{
+  padding-top: 8%;
+  font-size: 20px;
+  color: black;
+}
+
+.BaoBao #fb_icon{
+  top: 12px;
+  left: 15px;
+}

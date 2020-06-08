@@ -1,12 +1,5 @@
 import React, { Component } from "react";
 import Button_Quick_view from "./Button_Quick_view.js";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
 
 class News_Block extends Component {
   render() {
@@ -40,12 +33,12 @@ class News_Block extends Component {
                 QuickView_to_Full_View={this.props.block_NavLinkFull}
               />
 
-              <Link
-                to={this.props.block_NavLinkFull}
+              <a
+                href={this.props.block_NavLinkFull}
                 className="btn btn-primary btnRight"
               >
                 <i className="fa fa-newspaper-o"></i> Full view
-              </Link>
+              </a>
             </div>
           </div>
         </div>

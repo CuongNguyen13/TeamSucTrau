@@ -4,52 +4,57 @@ import "./ProfileLeader.css";
 class Profile extends Component {
   render() {
     return (
-      <div className="card h-100 BaoBao text-justify text-center">
+      <div className="card h-100 BaoBao text-justify text-center  ">
         <div className="card-header">
           <div
             className="card-cover"
             style={{
-              backgroundImage:
-                'url("https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80")',
+              background:
+                "linear-gradient(to right, #17b439ea 20%, #05a3ff 100%)",
             }}
           ></div>
           <img
             className="card-avatar"
-            src="https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src=""
             alt="avatar"
           />
-          <h1 className="card-fullname">William Rocheald</h1>
-          <h2 className="card-jobtitle">UI Developer</h2>
+          <h1 className="card-fullname">Trần Thanh Bảo</h1>
+          <h2 className="card-jobtitle">18130017</h2>
         </div>
         <div className="card-main">
           <div className="card-section is-active" id="about">
             <div className="card-content">
-              <div className="card-subtitle">ABOUT</div>
-              <p className="card-desc">
-                Whatever tattooed stumptown art party sriracha gentrify hashtag
-                intelligentsia readymade schlitz brooklyn disrupt.
+              <div className="card-subtitle">CEO and Founder</div>
+              <p className="card-desc text-justify">
+                    Đối với nhà đầu tư việc kịp thời cập nhật tin tức về thị trường
+                bất động sản luôn là yếu tố đặt lên hàng đầu, nhận thấy khó khăn
+                đó, Trần Thanh Bảo cùng với đội ngũ của mình đã lập nên nền tảng
+                số cung cấp những tin tức nhanh chóp kịp thời và sớm nhất của
+                thị trường bất động sản cho nhà đầu tư để không bỏ lỡ cơ hội của
+                mình. Bên cạnh đó, độ chính xác, tính minh bạch của nội dung và niềm tin của người dùng luôn được chúng tôi đặt lên hàng đầu.
+
               </p>
             </div>
-            <div class="social-container">
-              <ul class="social-icons">
+            <div className="social-container">
+              <ul className="social-icons">
                 <li>
-                  <a href="#">
-                    <i class="fa fa-link"></i>
+                  <a href="">
+                    <i className="fa fa-link"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
+                  <a href="">
+                    <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa fa-github"></i>
+                  <a href="">
+                    <i className="fa fa-github"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
+                  <a href="">
+                    <i className="fa fa-facebook" id="fb_icon"></i>
                   </a>
                 </li>
               </ul>

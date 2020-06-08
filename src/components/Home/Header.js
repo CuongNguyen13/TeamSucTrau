@@ -23,7 +23,7 @@ class Header extends Component {
             <div className="w-100 text-white">
               <h1 className="display-3 title_header">real estate news</h1>
               <p className="lead mb-0">
-                Luôn cập nhật nhanh chóng tin tức mới nhất về thi trường bất
+                Luôn cập nhật nhanh chóng tin tức mới nhất về thị trường bất
                 động sản Việt Nam
               </p>
             </div>

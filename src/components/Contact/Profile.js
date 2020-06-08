@@ -3,52 +3,49 @@ import React, { Component } from "react";
 class Profile extends Component {
   render() {
     return (
-      <div className="card text-aligin text-justify text-center">
+      <div className="card text-justify text-center">
         <div className="card-header">
           <div
             className="card-cover"
             style={{
-              backgroundImage:
-                'url("https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80")',
+              background:
+                "linear-gradient(to right, #17b439ea 20%, #05a3ff 100%)",
             }}
           ></div>
           <img
             className="card-avatar"
-            src="https://images.unsplash.com/photo-1549068106-b024baf5062d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            src={this.props.avatar}
             alt="avatar"
           />
-          <h1 className="card-fullname">William Rocheald</h1>
-          <h2 className="card-jobtitle">UI Developer</h2>
+          <h1 className="card-fullname">{this.props.name}</h1>
+          <h2 className="card-jobtitle">{this.props.MSSV}</h2>
         </div>
         <div className="card-main">
-          <div className="card-section is-active" id="about">
+          <div className="card-section" id="about">
             <div className="card-content">
-              <div className="card-subtitle">ABOUT</div>
-              <p className="card-desc">
-                Whatever tattooed stumptown art party sriracha gentrify hashtag
-                intelligentsia readymade schlitz brooklyn disrupt.
-              </p>
+              <div className="card-subtitle">{this.props.chucVu}</div>
+              <p className="card-desc text-justify">{this.props.moTa}</p>
             </div>
             <div class="social-container">
               <ul class="social-icons">
                 <li>
-                  <a href="#">
+                  <a href={this.props.webCaNhan}>
                     <i class="fa fa-link"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
+                  <a href={this.props.twitter}>
+                    <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa fa-github"></i>
+                  <a href={this.props.github}>
+                    <i className="fa fa-github"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
+                  <a href={this.props.fb}>
+                    <i className="fa fa-facebook" id="fb_icon"></i>
                   </a>
                 </li>
               </ul>

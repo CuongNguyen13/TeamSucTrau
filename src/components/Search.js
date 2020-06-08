@@ -4,12 +4,15 @@ import $ from "jquery";
 class Search extends Component {
   getUserLocation = () => {
     $.getJSON(
-      "http://api.ipstack.com/113.161.38.79?access_key=2a6ca3b7495c1048cd04839775fbad78",
+      "https://ipinfo.io?token=e4c3670fe0f797",
       function (data) {
         $("#ip").html(data.ip);
-        $("#country_name").html(data.country_name);
-        $("#region_name").html(data.region_name);
+        $("#hostname").html(data.hostname);
+        $("#country").html(data.country);
+        $("#region").html(data.region);
         $("#city").html(data.city);
+        $("#timezone").html(data.timezone);
+        $("#loc").html(data.loc);
       }
     );
   };
@@ -33,23 +36,37 @@ class Search extends Component {
 
           <tbody>
             <tr>
-              <th scope="row">Your IP</th>
+              <th scope="row">Public IP</th>
               <td id="ip"></td>
+            </tr>
+            <tr>
+              <th scope="row">Nhà mạng</th>
+              <td id="hostname"></td>
             </tr>
 
             <tr>
               <th scope="row">Quốc gia</th>
-              <td id="country_name"></td>
+              <td id="country"></td>
             </tr>
 
             <tr>
               <th scope="row">Khu vực</th>
-              <td id="region_name"></td>
+              <td id="region"></td>
             </tr>
 
             <tr>
               <th scope="row"> Thành phố</th>
               <td id="city"></td>
+            </tr>
+
+            <tr>
+              <th scope="row"> Timezone</th>
+              <td id="timezone"></td>
+            </tr>
+
+            <tr>
+              <th scope="row"> Tọa Độ</th>
+              <td id="loc"></td>
             </tr>
 
             <tr>

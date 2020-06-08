@@ -73,7 +73,113 @@ body {
 }
 
 /* for Search page */
-.userLocationTable {
+
+.SearchPage .title {
+  margin-top: 10%;
+}
+
+.getUserLocationTable {
   width: 60%;
   margin-left: 20%;
+  background-color: rgba(7, 7, 7, 0.02);
+  margin-top: 5%;
+}
+.getUserLocationTable td {
+  font-size: 1.04em;
+}
+
+thead,
+tbody,
+tr {
+  border: 2px solid;
+  border-color: rgb(128, 125, 125);
+}
+
+/* // for loading icon */
+.loader {
+  width: 40px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes load1 {
+  100% {
+    transform: rotatez(360deg);
+  }
+}
+.loader1::before {
+  content: "";
+  color: white;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  border-color: #03e521 #43e503 transparent transparent;
+  animation: load1 0.4s infinite;
+}
+
+.modal-title .title {
+  float: right;
+  margin-top: 15%;
+  padding-left: 30px;
+}
+.modal-title .loader1 {
+  float: left;
+}
+
+.modal-title {
+  height: 70px;
+  margin-bottom: -5px;
+  margin-top: -20px;
+}
+
+/* // for contact Page */
+.group_card_profile {
+  width: 80%;
+}
+
+.leaderCard {
+}
+
+.card-main {
+  height: 200px;
+}
+
+/* for About page */
+#chartdiv1 {
+  width: 100%;
+  height: 500px;
+}
+
+#chartdiv2 {
+  width: 100%;
+  height: 600px;
+}
+
+.introAbout{
+  margin: 0% 10% 9% 10%;
+}
+
+.timeLine123{
+  margin-top:6%;
+}
+
+.LHHT{
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+}
+.LienHeComponent{
+  border : 1px solid;
+  border-color: rgba(15, 15, 15, 0.514);
+  border-radius: 30px;
+  margin: 5% 5% 5% 5%;
+  background: linear-gradient(to bottom left, #0c0c0c18 0%, #fffdfe25 100%);
+
+}
+
+.LienHeContent{
+  padding: 0% 0% 2% 5%;
 }

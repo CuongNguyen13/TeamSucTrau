@@ -11,14 +11,14 @@ body {
 .new_footer_top .footer_bg {
   position: absolute;
   bottom: 0;
-  background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png")
+  background: url("https://firebasestorage.googleapis.com/v0/b/baononglam.appspot.com/o/Footer%2Ffooter_bg.png?alt=media&token=9f6c259d-fc22-4c40-9d36-7bcaf7c05819")
     no-repeat scroll center 0;
   width: 100%;
   height: 266px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif")
+  background: url("https://firebasestorage.googleapis.com/v0/b/baononglam.appspot.com/o/Footer%2Fvolks.gif?alt=media&token=af73b6fb-9114-4418-aec4-9a553a8d9fbf")
     no-repeat center center;
   width: 330px;
   height: 105px;
@@ -31,7 +31,7 @@ body {
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif")
+  background: url("https://firebasestorage.googleapis.com/v0/b/baononglam.appspot.com/o/Footer%2Fcyclist.gif?alt=media&token=c6f28be5-ff07-4a85-aa6a-73ed6827ac4c")
     no-repeat center center;
   width: 88px;
   height: 100px;
