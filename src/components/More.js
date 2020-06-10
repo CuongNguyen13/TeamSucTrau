@@ -9,8 +9,6 @@
 #                                  |_|            |___/                                 |___/                                     #                                                                                                                                 #
 ################################################################################################################################## */
 
-
-
 import React, { Component } from "react";
 
 class More extends Component {
@@ -22,9 +20,9 @@ class More extends Component {
         <div className="text-center introAbout">
           <h1>Tầm nhìn chiến lược và định hướng trong tương lai</h1>
           <p>
-            Cty TNHH bất động sản Nông Lâm không chỉ là nền tảng cung cấp tin
+            Công ty TNHH bất động sản Nông Lâm không chỉ là nền tảng cung cấp tin
             tức về thị trường Bất động sản chính xác và nhanh chóng nhất Việt
-            Nam, trong thời gian tới Cty TNHH bất động sản Nông Lâm sẽ phát
+            Nam, trong thời gian tới Công ty TNHH bất động sản Nông Lâm sẽ phát
             triển thêm nền tảng môi giới bất động sản, có nhiệm vụ kết nối các
             nhà đầu tư với nhau trên khắp mọi miền tổ quốc.
           </p>
@@ -33,10 +31,22 @@ class More extends Component {
           ĐƯỢC TẠO RA TỪ 1023,5 GIỜ CODING LIÊN TỤC
         </h3>
         <div id="chartdiv1"></div>
-        <h3 className="text-center timeLine123">
+
+        <div className="container my-5">
+          <div className="row">
+            <div className="col-lg-12 mb-4 text-center">
+              <h3>THIẾT KẾ RESPONSIVE TỐI ƯU CHO MOBILE</h3>
+              <img
+                id="responsive-mockup"
+                src="https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2Fresponsive.png?alt=media&token=a6be69fc-8c5e-4c81-8b8e-e431954d40da"
+              ></img>
+            </div>
+          </div>
+        </div>
+
+        <h3 className="text-center ">
           QUÁ TRÌNH HÌNH THÀNH VÀ PHÁT TRIỂN
         </h3>
-
         <div id="chartdiv2"></div>
         {/* /////////// begin carousel ///////////////////////// */}
         <div className="container mt-5">
@@ -138,8 +148,6 @@ class More extends Component {
 
         {/* /////////// end carousel ///////////////////////// */}
 
-        
-
         <div className="container-fluid LienHeComponent pt-3 px-5">
           <div className="row">
             <div className="col-lg-6 mb-4 pl-5">
@@ -157,12 +165,12 @@ class More extends Component {
               </div>
             </div>
             <div className="col-lg-6 mb-4 px-5 mt-4 ">
-              <div >
+              <div>
                 <h4>Địa Chỉ:</h4>
                 <p>
                   <i className="fa fa-home"></i> Trụ sở chính : Trường Đại Học
-                  Nông Lâm Tp.HCM
-                  khu phố 6, phường Linh Trung, Quận Thủ Đức, Tp.HCM
+                  Nông Lâm Tp.HCM khu phố 6, phường Linh Trung, Quận Thủ Đức,
+                  Tp.HCM
                 </p>
                 <p>
                   <i className="fa fa-home"></i> Chi nhánh 1 : KTX ĐHQG khu B
@@ -170,8 +178,9 @@ class More extends Component {
                 </p>
                 <p>
                   <i className="fa fa-home"></i> Chi nhánh 2 : KTX ĐHQG Khu A
-                  khu phố 6 - Phường Linh Trung - Quận Thủ Đức - Tp.HCM</p>
-                
+                  khu phố 6 - Phường Linh Trung - Quận Thủ Đức - Tp.HCM
+                </p>
+
                 <h4>Liên hệ:</h4>
                 <p>
                   <i className="fas fa-phone-square"></i> SĐT : 18008199
