@@ -1,0 +1,54 @@
+[
+  {
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2FAbout%2FAvatar%20H%E1%BB%93%20Qu%E1%BB%91c%20Ngh%C4%A9a.png?alt=media&token=85790163-3f70-40cf-8b60-745f5fe50aeb",
+    "fullName": "Hồ Quốc Nghĩa",
+    "MSSV": "18130150",
+    "chucvu": "Biên tập viên",
+    "gioithieu": "Đảm bảo thông tin luôn chính xác, kiểm duyệt nội dung bản tin trước khi đến tay đọc giả.",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/profile.php?id=100009998106031",
+      "youtube": "",
+      "github": ""
+    }
+  },
+  {
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2FAbout%2FAvatarTuanDuong.png?alt=media&token=851aab73-eff6-49e8-b915-beaf99cb6f4f",
+    "fullName": "Lê Tuấn Dương",
+    "MSSV": "18130052",
+    "chucvu": "Nhà báo, Phóng viên",
+    "gioithieu": "Luôn có mặt  kịp thời tại các dự án mới, không bỏ lỡ bất kỳ tin tức nào về thị trường BĐS.  ",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/quen.lang.94214",
+      "youtube": "",
+      "github": ""
+    }
+  },
+  {
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2FAbout%2FAvatarNguyenVanCuong.png?alt=media&token=1a776ee4-01b7-4ed4-bace-c6d9a317f979",
+    "fullName": "Nguyễn Văn Cương",
+    "MSSV": "18130024",
+    "chucvu": "Developer",
+    "gioithieu": "Không ngừng phát triển nền tảng tin tức kỹ thuật số, luôn áp dụng các công nghệ mới nhất nhầm tối ưu trải nghiệm người dùng. ",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/tri.can.520",
+      "youtube": "",
+      "github": ""
+    }
+  },
+  {
+    "avatar": "https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2FAbout%2FAvatarMinhHuan.png?alt=media&token=5386e248-804a-4b58-9add-a0da7aaa3170",
+    "fullName": "Võ Đoàn Minh Huân",
+    "MSSV": "18130089",
+    "chucvu": "Chuyên viên marketing",
+    "gioithieu": "Đưa nền tảng đến tận tay người dùng, luôn  lắng nghe feedback của họ. Đẩy mạnh quảng cáo trên các phương tiện truyền thông",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/profile.php?id=100011287508032",
+      "youtube": "",
+      "github": ""
+    }
+  }
+]

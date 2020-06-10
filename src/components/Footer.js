@@ -1,3 +1,16 @@
+/* ################################################################################################################################                                                                                                                                #
+#   _____ _               _   _                                      _                           ___   ___ ___   ___              #
+#  / ____(_)             | | (_)                                    (_)                         |__ \ / _ \__ \ / _ \             #
+# | |  __ _  __ _  ___   | |_ _  ___ _ __    _ __   __ _ _   _  ___  _   _ __ ___   __ _ _   _     ) | | | | ) | | | |            #
+# | | |_ | |/ _` |/ _ \  | __| |/ _ \ '_ \  | '_ \ / _` | | | |/ _ \| | | '_ ` _ \ / _` | | | |   / /| | | |/ /| | | |            #
+# | |__| | | (_| | (_) | | |_| |  __/ |_) | | | | | (_| | |_| | (_) | | | | | | | | (_| | |_| |  / /_| |_| / /_| |_| |            #
+#  \_____|_|\__,_|\___/   \__|_|\___| .__/  |_| |_|\__, |\__,_|\___/|_| |_| |_| |_|\__,_|\__, | |____|\___/____|\___/             #
+#                                  | |             __/ |                                 __/ |                                    #
+#                                  |_|            |___/                                 |___/                                     #                                                                                                                                 #
+################################################################################################################################## */
+
+
+
 import React, { Component } from "react";
 
 class Footer extends Component {
@@ -13,7 +26,7 @@ class Footer extends Component {
                 <div className="social-buttons">
                   {/* facebook  Button */}
                   <a
-                    href="http://www.facebook.com"
+                    href="https://www.facebook.com/Human-Computer-Interaction-104811304579400/"
                     target="blank"
                     className="social-margin"
                   >
@@ -21,10 +34,10 @@ class Footer extends Component {
                       <i className="fa fa-facebook" aria-hidden="true" />
                     </div>
                   </a>
-                  
+
                   {/* Github Button */}
                   <a
-                    href="https://github.com/"
+                    href="https://github.com/Thanh-Bao/FrontEnd-real-estate-news-website"
                     target="blank"
                     className="social-margin"
                   >
@@ -42,7 +55,7 @@ class Footer extends Component {
                       <i className="fa fa-youtube" aria-hidden="true" />
                     </div>
                   </a>
-                  
+
                   {/* TwitterButton */}
                   <a
                     href="http://twitter.com/"
@@ -56,12 +69,13 @@ class Footer extends Component {
                 </div>
               </div>
 
-              <div className="col-lg-6 text-justify text-center Copyright1_block">
+              <div className="col-lg-6 text-justify text-center" >
                 <h5>Cty TNHH bất động sản Nông Lâm</h5>
-                <p>Nguồn tin tức chính xác, tin cậy về thị trường bất động sản Việt Nam</p>
+                <p>
+                  Nguồn tin tức chính xác, tin cậy về thị trường bất động sản
+                  Việt Nam
+                </p>
                 <p id="Copyright1">Copyright © HCI Team NLU 2020.</p>
-
-                
               </div>
             </div>
           </div>

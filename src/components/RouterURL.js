@@ -1,9 +1,21 @@
+/* ################################################################################################################################                                                                                                                                #
+#   _____ _               _   _                                      _                           ___   ___ ___   ___              #
+#  / ____(_)             | | (_)                                    (_)                         |__ \ / _ \__ \ / _ \             #
+# | |  __ _  __ _  ___   | |_ _  ___ _ __    _ __   __ _ _   _  ___  _   _ __ ___   __ _ _   _     ) | | | | ) | | | |            #
+# | | |_ | |/ _` |/ _ \  | __| |/ _ \ '_ \  | '_ \ / _` | | | |/ _ \| | | '_ ` _ \ / _` | | | |   / /| | | |/ /| | | |            #
+# | |__| | | (_| | (_) | | |_| |  __/ |_) | | | | | (_| | |_| | (_) | | | | | | | | (_| | |_| |  / /_| |_| / /_| |_| |            #
+#  \_____|_|\__,_|\___/   \__|_|\___| .__/  |_| |_|\__, |\__,_|\___/|_| |_| |_| |_|\__,_|\__, | |____|\___/____|\___/             #
+#                                  | |             __/ |                                 __/ |                                    #
+#                                  |_|            |___/                                 |___/                                     #                                                                                                                                 #
+################################################################################################################################## */
+
+
 import React, { Component } from "react";
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./Home/Home.js";
 import Search from "./Search.js";
-import Contact from "./Contact/Contact.js";
-import About from "./About.js";
+import About from "./About/About.js";
+import More from "./More.js";
 import data from "../SIMULATION_DATABASE/data_BlockNews.json";
 import FVdata from "../SIMULATION_DATABASE/data_NewsFullView.json";
 // import component xem full bảng tin
@@ -14,13 +26,24 @@ class RouterURL extends Component {
     return (
       <div>
         <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
         <Route exact path="/search" component={Search} />
-        <Route exact path="/contact" component={Contact} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/more" component={More} />
 
         {/* chuyển đến trang xem full bảng tin */}
         {data.map((value, index) => {
+          let preIndex = index;
+          let nextIndex = index;
+          if (index === 0) {
+            preIndex = 5;
+          } else {
+            preIndex = index - 1;
+          }
+          if (index === 5) {
+            nextIndex = 0;
+          } else {
+            nextIndex = index + 1;
+          }
           return (
             <Route
               exact
@@ -31,6 +54,8 @@ class RouterURL extends Component {
                   imgFullView={FVdata[index].image}
                   contentFullView={FVdata[index].content}
                   partURL_plugin_fb={value.linkTopic}
+                  previous={data[preIndex].linkTopic}
+                  next={data[nextIndex].linkTopic}
                 />
               )}
             />

@@ -1,6 +1,15 @@
-body {
-  background: #fbfbfd;
-}
+/* ################################################################################################################################
+#                                                                                                                                 #
+#   _____ _               _   _                                      _                           ___   ___ ___   ___              #
+#  / ____(_)             | | (_)                                    (_)                         |__ \ / _ \__ \ / _ \             #
+# | |  __ _  __ _  ___   | |_ _  ___ _ __    _ __   __ _ _   _  ___  _   _ __ ___   __ _ _   _     ) | | | | ) | | | |            #
+# | | |_ | |/ _` |/ _ \  | __| |/ _ \ '_ \  | '_ \ / _` | | | |/ _ \| | | '_ ` _ \ / _` | | | |   / /| | | |/ /| | | |            #
+# | |__| | | (_| | (_) | | |_| |  __/ |_) | | | | | (_| | |_| | (_) | | | | | | | | (_| | |_| |  / /_| |_| / /_| |_| |            #
+#  \_____|_|\__,_|\___/   \__|_|\___| .__/  |_| |_|\__, |\__,_|\___/|_| |_| |_| |_|\__,_|\__, | |____|\___/____|\___/             #
+#                                  | |             __/ |                                 __/ |                                    #
+#                                  |_|            |___/                                 |___/                                     #
+#                                                                                                                                 #
+################################################################################################################################## */
 
 .new_footer_top {
   padding: 5px 0px 270px;
@@ -11,14 +20,14 @@ body {
 .new_footer_top .footer_bg {
   position: absolute;
   bottom: 0;
-  background: url("https://firebasestorage.googleapis.com/v0/b/baononglam.appspot.com/o/Footer%2Ffooter_bg.png?alt=media&token=9f6c259d-fc22-4c40-9d36-7bcaf7c05819")
+  background: url("https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2Ffooter_bg.png?alt=media&token=f348a85a-0ecb-42c0-bdc2-a065bdddaa39")
     no-repeat scroll center 0;
   width: 100%;
   height: 266px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("https://firebasestorage.googleapis.com/v0/b/baononglam.appspot.com/o/Footer%2Fvolks.gif?alt=media&token=af73b6fb-9114-4418-aec4-9a553a8d9fbf")
+  background: url("https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2Fvolks.gif?alt=media&token=8d547170-1c4d-4998-91ef-00e49752e696")
     no-repeat center center;
   width: 330px;
   height: 105px;
@@ -31,7 +40,7 @@ body {
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-  background: url("https://firebasestorage.googleapis.com/v0/b/baononglam.appspot.com/o/Footer%2Fcyclist.gif?alt=media&token=c6f28be5-ff07-4a85-aa6a-73ed6827ac4c")
+  background: url("https://firebasestorage.googleapis.com/v0/b/mediastorage0943.appspot.com/o/Giao%20Tiep%20Nguoi%20May%202020%2FProject%20Nhom%2Fcyclist.gif?alt=media&token=c0e52379-73cc-4eb6-9790-676a6e1e51ee")
     no-repeat center center;
   width: 88px;
   height: 100px;
@@ -74,10 +83,18 @@ footer {
   position: relative;
 }
 
+#Copyright1 {
+  font-weight: bold;
+}
+
 footer .container {
   margin-left: 7%;
   position: absolute;
   z-index: 1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer .footer_bg {
@@ -85,23 +102,10 @@ footer .footer_bg {
   z-index: 0;
 }
 
-.social_block{
-  margin-left: -20%;
-}
-
-#Copyright1{
-  margin-top:-10px;
-  font-weight: bold;
-}
-.Copyright1_block{
-  margin-left: -35px;
-}
-
 /* social icon */
 
 /* Social Button Icon Styling */
 /* Colors */
-
 
 .headline {
   text-align: center;
@@ -174,8 +178,6 @@ footer .footer_bg {
   color: #55acee;
 }
 
-
-
 .social-buttons .social-icon.github {
   font-size: 22px;
   padding-top: 9px;
@@ -199,4 +201,3 @@ footer .footer_bg {
   background-color: #fff;
   color: #b00;
 }
-
