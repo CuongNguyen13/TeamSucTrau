@@ -1,0 +1,54 @@
+[
+  {
+    "avatar": "media/avatarNghia.png",
+    "fullName": "Hồ Quốc Nghĩa",
+    "MSSV": "18130150",
+    "chucvu": "Biên tập viên",
+    "gioithieu": "Đảm bảo thông tin luôn chính xác, kiểm duyệt nội dung bản tin trước khi đến tay đọc giả.",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/profile.php?id=100009998106031",
+      "youtube": "",
+      "github": ""
+    }
+  },
+  {
+    "avatar": "media/avatarDuong.png",
+    "fullName": "Lê Tuấn Dương",
+    "MSSV": "18130052",
+    "chucvu": "Nhà báo, Phóng viên",
+    "gioithieu": "Luôn có mặt  kịp thời tại các dự án mới, không bỏ lỡ bất kỳ tin tức nào về thị trường BĐS.  ",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/quen.lang.94214",
+      "youtube": "",
+      "github": ""
+    }
+  },
+  {
+    "avatar": "media/avatarCuong.png",
+    "fullName": "Nguyễn Văn Cương",
+    "MSSV": "18130024",
+    "chucvu": "Developer",
+    "gioithieu": "Không ngừng phát triển nền tảng tin tức kỹ thuật số, luôn áp dụng các công nghệ mới nhất nhầm tối ưu trải nghiệm người dùng. ",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/tri.can.520",
+      "youtube": "",
+      "github": ""
+    }
+  },
+  {
+    "avatar": "media/avatarHuan.jpg",
+    "fullName": "Võ Đoàn Minh Huân",
+    "MSSV": "18130089",
+    "chucvu": "Chuyên viên marketing",
+    "gioithieu": "Đưa nền tảng đến tận tay người dùng, luôn  lắng nghe feedback của họ. Đẩy mạnh quảng cáo trên các phương tiện truyền thông",
+    "link": {
+      "webCaNhan": "",
+      "fb": "https://www.facebook.com/profile.php?id=100011287508032",
+      "youtube": "",
+      "github": ""
+    }
+  }
+]
